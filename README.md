@@ -28,15 +28,12 @@ $ docker logs tachy
 ## Pruebas
 ### Desde el navegador
 Acceda a la url: http://localhost
-### Desde consola (con docker)
-```sh
-$ docker logs -f tachy
-```
+
 ### Desde consola (con curl)
 ```sh
 $ curl http://localhost
 ```
-### Desde contenedor
+### Desde el contenedor
 Ingresar al contenedor
 ```sh
 docker exec -it tachy bash
